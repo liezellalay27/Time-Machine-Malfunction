@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Time Machine",
+    "slug": "time-machine-alarm",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "plugins": [
+      ["expo-notifications", { "defaultChannel": "alarms" }]
+    ],
+    "android": { "package": "com.timemachine.alarm" },
+    "ios": { "bundleIdentifier": "com.timemachine.alarm" }
+  }
+}
